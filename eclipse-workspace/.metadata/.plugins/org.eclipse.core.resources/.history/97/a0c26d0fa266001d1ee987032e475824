@@ -1,0 +1,31 @@
+package hola;
+
+import java.util.Scanner;
+
+public class protos {
+
+	public static void main (String[]args) {
+	Scanner sc= new Scanner (System.in);
+	System.out.println("protos o euros?");
+	String variable= sc.next();
+	String protos= "protos";
+	String euros= "euros";
+	if(variable.equals(protos)) {
+		
+		System.out.println("poronga");
+		
+		
+		
+	}
+	if(variable.equals(protos)) {
+		
+		
+		
+		
+	}
+	
+	
+	
+	
+	}
+}

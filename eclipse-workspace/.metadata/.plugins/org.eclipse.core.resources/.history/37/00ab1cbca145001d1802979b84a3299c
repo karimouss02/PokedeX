@@ -1,0 +1,74 @@
+package practica15;
+
+import java.util.Scanner;
+
+public class practica15 {
+public static void main(String[] args) {
+		
+		Scanner sc=new Scanner (System.in);
+		
+        System.out.println("Dime un numero");
+        
+        int numero= sc.nextInt();
+        
+        System.out.println("Dime otro numero");
+        
+        int fin= sc.nextInt();
+        
+        if (fin>numero){
+        
+        int cero=0;
+        
+        int uno=numero;
+        
+        int dos= numero*2;
+        
+        int tres=numero*3;
+        
+        int cuatro=numero*4;
+        
+        int cinco=numero*5;
+        
+        int seis=numero*6;
+        
+        int siete=numero*7;
+        
+        int ocho=numero*8;
+        
+        int nueve=numero*9;
+        
+        int diez=numero*10;
+
+        System.out.println("tabla de "+numero+" cero "+cero+" uno "+uno+ " dos "+dos+" tres "+tres+" cuatro "+cuatro+" cinco "+cinco+" seis "+seis+" siete "+siete+" ocho "+ocho+" nueve "+nueve+" diez "+diez);
+        if(fin==numero) {
+        	System.out.println("fin");
+        }
+        
+        if (fin>numero){
+        int finPrimero= fin-1;
+        
+        int dos2= finPrimero*2;
+        
+        int tres3=finPrimero*3;
+        
+        int cuatro4=finPrimero*4;
+        
+        int cinco5=finPrimero*5;
+        
+        int seis6=finPrimero*6;
+        
+        int siete7=finPrimero*7;
+        
+        int ocho8=finPrimero*8;
+        
+        int nueve9=finPrimero*9;
+        
+        int diez10=finPrimero*10;
+        System.out.println("tabla de "+finPrimero+" cero "+cero+" uno "+uno+ " dos "+dos2+" tres "+tres3+" cuatro "+cuatro4+" cinco "+cinco5+" seis "+seis6+" siete "+siete7+" ocho "+ocho8+" nueve "+nueve9+" diez "+diez10);
+        }
+        }
+        if(fin==numero) {
+        	System.out.println("fin");
+        }
+}
+}

@@ -1,0 +1,94 @@
+package practica15;
+
+import java.util.Scanner;
+
+public class practica15 {
+public static void main(String[] args) {
+		
+		Scanner sc=new Scanner (System.in);
+		
+        System.out.println("Dime un numero");
+        
+        int numero= sc.nextInt();
+        
+        System.out.println("Dime otro numero");
+        
+        int fin= sc.nextInt();
+       
+        int Numero=1;
+        
+        if(Numero<10) {
+        	Numero++;
+        
+        if (Numero==0){
+        	int cero=Numero*numero;
+        	System.out.println(cero);
+        }
+        if (Numero==1){
+        	int uno=Numero*numero;
+        	System.out.println(uno);
+        	
+        }
+        if (Numero==2){
+        	int dos=Numero*numero;
+        	System.out.println(dos);
+        	
+        }
+       
+        if (Numero==3){
+        	int tres=Numero*numero;
+        	System.out.println(tres);
+        }
+       
+        if (Numero==4){
+        	int cuatro=Numero*numero;
+        	System.out.println(cuatro);
+        }
+       
+        if (Numero==5){
+        	int cinco=Numero*numero;
+        	System.out.println(cinco);
+        }
+        if (Numero==6){
+        	int seis=Numero*numero;
+        	System.out.println(seis);
+        }
+       
+        if (Numero==7){
+        	int siete=Numero*numero;
+        	System.out.println(siete);
+        }
+        if (Numero==8){
+        	int ocho=Numero*numero;
+        	System.out.println(ocho);
+        }
+        if (Numero==9){
+        	int nueve=Numero*numero;
+        	System.out.println(nueve);
+        }
+        if (Numero==10){
+        	int diez=Numero*numero;
+        	System.out.println(diez);
+        }
+        	
+        	
+        	
+        	
+       
+        	
+        	
+        	
+        	
+        	
+        	
+        
+        
+        
+       
+       
+       
+  
+        }
+}
+}
+

@@ -1,0 +1,39 @@
+package practica15;
+
+import java.util.Scanner;
+
+public class practica15 {
+public static void main(String[] args) {
+		
+		Scanner sc=new Scanner (System.in);
+		
+        System.out.println("Dime un numero");
+        
+        int numero= sc.nextInt();
+        
+        int cero=0;
+        
+        int uno=numero;
+        
+        int dos= numero*2;
+        
+        int tres=numero*3;
+        
+        int cuatro=numero*4;
+        
+        int cinco=numero*5;
+        
+        int seis=numero*6;
+        
+        int siete=numero*7;
+        
+        int ocho=numero*8;
+        
+        int nueve=numero*9;
+        
+        int diez=numero*10;
+
+        System.out.println("tabla de "+numero+" cero "+cero+" uno "+uno+ " dos "+dos+" tres "+tres+" cuatro "+cuatro+" cinco "+cinco+" seis "+seis+" siete "+siete+" ocho "+ocho+" nueve "+nueve+" diez "+diez);
+        
+}
+}

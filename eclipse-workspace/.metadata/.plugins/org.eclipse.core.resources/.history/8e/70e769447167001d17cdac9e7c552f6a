@@ -1,0 +1,22 @@
+package practicas60;
+import java.util.Scanner;
+public class practica46 {
+	public static void main (String[]args) {
+		Scanner sc =new Scanner(System.in);  
+		System.out.print("cuantos datos vas a introducir?  ");
+		int largo=sc.nextInt();
+		int dato[]= new int[largo];
+		int array[]=new int[largo];
+		for(int a=0; a<=largo; a++) {
+			System.out.print("introduce un dato a rellenar  ");
+			int datos= sc.nextInt();
+			if(datos>0) 
+			dato[a]=datos;
+			for(int i=0; i<=(largo-1); i++) {
+				array[i]=(dato[i]+dato[i+1]+dato[i+2]);
+				System.out.println((array[i]));
+		}
+		}
+	}
+	
+}

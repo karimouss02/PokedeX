@@ -1,0 +1,109 @@
+package practica15;
+
+import java.util.Scanner;
+
+public class practica15 {
+public static void main(String[] args) {
+		
+		Scanner sc=new Scanner (System.in);
+		
+        System.out.println("Dime un numero");
+        
+        int numero= sc.nextInt();
+        
+        System.out.println("Dime otro numero");
+        
+        int fin= sc.nextInt();
+       
+        int Numero=0;
+        
+        if (numero==fin) {
+    		System.out.println("fin");
+    	}
+    	else{
+    		
+    	
+        if(Numero<10) {
+        	Numero++;
+        
+        if (Numero==0){
+        	int cero=Numero*numero;
+        	System.out.println(cero);
+        	Numero++;
+        }
+        if (Numero==1){
+        	int uno=Numero*numero;
+        	System.out.println(uno);
+        	Numero++;
+        	
+        }
+        if (Numero==2){
+        	int dos=Numero*numero;
+        	System.out.println(dos);
+        	Numero++;
+        }
+       
+        if (Numero==3){
+        	int tres=Numero*numero;
+        	System.out.println(tres);
+        	Numero++;
+        }
+       
+        if (Numero==4){
+        	int cuatro=Numero*numero;
+        	System.out.println(cuatro);
+        	Numero++;
+        }
+       
+        if (Numero==5){
+        	int cinco=Numero*numero;
+        	System.out.println(cinco);
+        	Numero++;
+        }
+        if (Numero==6){
+        	int seis=Numero*numero;
+        	System.out.println(seis);
+        	Numero++;
+        }
+       
+        if (Numero==7){
+        	int siete=Numero*numero;
+        	System.out.println(siete);
+        	Numero++;
+        }
+        if (Numero==8){
+        	int ocho=Numero*numero;
+        	System.out.println(ocho);
+        	Numero++;
+        }
+        if (Numero==9){
+        	int nueve=Numero*numero;
+        	System.out.println(nueve);
+        	Numero++;
+        }
+        if (Numero==10){
+        	int diez=Numero*numero;
+        	System.out.println(diez);
+        	
+        }
+        	
+        	
+        	
+       
+        	
+        }
+        	
+        	
+        	
+        	
+        
+        
+        
+       
+       
+       sc.close();
+  
+        }
+}
+}
+

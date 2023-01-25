@@ -1,0 +1,25 @@
+package practicas60;
+import java.util.Scanner;
+public class practica44 {
+	public static void main (String[]args) {
+		Scanner sc =new Scanner(System.in);
+		int array[][][]= new int[6][6][6];
+		for(int i=1;i<=3;i++) {
+			for(int a=1;a<=5;a++) {
+				System.out.println("para el trimestre: "+i+" introduce la nota del alumno: "+a);
+				int nota= sc.nextInt();
+				if(i==1)
+					array[a][0][0]=nota;
+				else if(i==2)
+					array[0][a][0]=nota;
+				else
+					array[0][0][a]=nota;
+			}
+		}
+		for(int b=1;b<=6;b++) {
+		System.out.println("la nota del alumno: "+b+ " del primer trimestre ha sido: "+array[b][0][0]);
+		System.out.println("la nota del alumno: "+b+ " del segundo trimestre ha sido: "+array[0][b][0]);
+		System.out.println("la nota del alumno: "+b+ " del tercer trimestre ha sido: "+array[0][0][b]+"\n");
+		}
+	}
+}

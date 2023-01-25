@@ -1,0 +1,46 @@
+package hola;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Iterator;
+import java.util.Scanner;
+
+public class prueba {
+	
+	public static void main (String[]args) {
+		
+		Scanner sc =new Scanner(System.in);
+		
+		ArrayList<String> nombre = new ArrayList<String>();  
+		ArrayList<Integer> salarios = new ArrayList<Integer>();
+		
+		boolean caca=true;
+		
+		while(caca==true){
+			System.out.print("introduce la persona  ");
+			String persona= sc.next();
+			System.out.print("su salario  ");
+			int salario= sc.nextInt();
+			if(salario>0) {
+			nombre.add(persona);
+			salarios.add(salario);
+			}
+			else {
+				caca=false;
+				
+			}
+			
+		}
+		
+
+		Iterator<String> nombreIterator = nombre.iterator();
+		Iterator<Integer> salariosIterator = salarios.iterator();
+		while(nombreIterator.hasNext()){
+			String elemento = nombreIterator.next();
+			int po = salariosIterator.next();
+			System.out.print("nombre: "+elemento+" / "+"\n");
+			System.out.print("salario: "+po+"euros / "+"\n");
+		}
+
+	}
+}

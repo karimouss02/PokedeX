@@ -1,0 +1,16 @@
+package practicas60;
+
+import java.util.Scanner;
+
+public class practica44 {
+	public static void main (String[]args) {
+		Scanner sc =new Scanner(System.in);
+		String array[][][]= new String[5][5][5];
+		
+		
+	
+	
+		
+		
+	}
+}

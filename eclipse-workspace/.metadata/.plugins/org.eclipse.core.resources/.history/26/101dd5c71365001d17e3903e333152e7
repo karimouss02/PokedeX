@@ -1,0 +1,39 @@
+package practicas60;
+
+import java.util.Scanner;
+
+public class practica41 {
+	public static void main (String []args)  {
+		int t [] = {1,2,3,4,5,6,7,8,9};
+		
+		shuffle(t);
+	}
+	public static void shuffle(int t[])  {
+		Scanner sc =new Scanner(System.in);
+		 for(int i=1;i< (t.length*10) ;i++) {
+			 
+			 for(int j=0;j<9 ;j++) {
+				 int random= (int) Math.random()*(t.length)+0;
+				 if((t[j])!=random){
+					 t[j]=random;
+ 
+				 }
+				 else{
+					 System.out.println("a");
+				 }
+				 
+			 }
+			 System.out.println(t[i]);
+		 }
+		 
+	
+	}
+	
+		
+	
+	
+	}
+	
+	
+	
+
